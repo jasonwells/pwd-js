@@ -15,7 +15,7 @@ app.get('/check', function (req, res) {
   else {
     res.status(400).json({ error: 'No password provided' });
   }
-}); 
+});
 
 var server = app.listen(3000, function () {
   var host = server.address().address;
