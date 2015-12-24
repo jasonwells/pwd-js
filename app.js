@@ -4,7 +4,7 @@ var zxcvbn = require('zxcvbn');
 
 // Status message
 app.get('/', function (req, res) {
-  res.send({ status: 'up' });
+  res.json({ status: 'up' });
 });
 
 // Check password strength with zxcvbn
