@@ -3,7 +3,7 @@ FROM node:5.3
 EXPOSE 3000
 
 RUN mkdir /app
-ADD . /app
+COPY . /app
 WORKDIR /app
 RUN npm install
 
