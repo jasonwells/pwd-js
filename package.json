@@ -1,12 +1,12 @@
 {
   "name": "pwd-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node password helper",
   "repository": "https:://github.com/jasonwells/pwd-js",
   "main": "app.js",
   "dependencies": {
-    "express": "^4.13.3",
-    "zxcvbn": "^4.2.0"
+    "express": "^4.14.0",
+    "zxcvbn": "^4.3.0"
   },
   "devDependencies": {},
   "scripts": {
