@@ -17,7 +17,9 @@ app.get('/check', function (req, res) {
   }
 });
 
-var server = app.listen(3000, function () {
+var listenPort = process.env.PORT || 3000;
+
+var server = app.listen(listenPort, function () {
   var host = server.address().address;
   var port = server.address().port;
 
